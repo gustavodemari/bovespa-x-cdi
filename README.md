@@ -18,15 +18,18 @@ Se na janela de 29/12/1989 até 18/12/1990 o CDI foi melhor que o BOVESPA, é ad
 
 E então, são calculados percentuais de vitória para cada janela, ou seja, se o CDI venceu 4051 vezes e o BOVESPA venceu 2595 vezes, na janela de 1 ano, temos 60.95% de vitórias para o CDI e 39.05% de vitórias para o BOVESPA.
 
+O código que implementa esses métodos está no arquivo **Bolsa no Longo Prazo vs CDI.ipynb**
+
+
 ## Resultados
 
 Em todas as janelas simuladas (1 à 30 anos), o CDI teve um maior percentual de vitórias sobre o índice BOVESPA.
 
 ![resultados](data/bovespa-x-cdi.png)
 
-Os resultados finais da simulação estão no arquivo results.csv na pasta data.
+Os resultados finais da simulação estão no arquivo **results.csv** na pasta data.
 
-Os arquivos de simulação estão na pasta data, com o nome bovespa-x-cdi-window-{JANELA}.csv, onde {JANELA} se refere à janela de 1, 2, 3...30 anos.
+Os arquivos de simulação estão na pasta data, com o nome **bovespa-x-cdi-window-{JANELA}.csv**, onde {JANELA} se refere à janela de 1, 2, 3...30 anos.
 
 ## Observações
 
